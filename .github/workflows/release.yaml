@@ -41,6 +41,5 @@ jobs:
     with:
       file_name: "book-dex-resourcepack"
       version: ${{ needs.prepare.outputs.version }}
-      folder_path: ./src
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
